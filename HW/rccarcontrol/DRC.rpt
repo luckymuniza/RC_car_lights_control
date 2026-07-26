@@ -1,0 +1,22 @@
+** Drc report for rccarcontrol.kicad_pcb **
+** Created on 2025-12-09T18:03:19+0100 **
+
+** Found 3 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(147,0000 mm, 105,0000 mm): Zone [GND] on B.Cu, priority 0
+    @(223,5000 mm, 111,7500 mm): PTH pad 1 [GND] of J8
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; 1 spokes connected to isolated island)
+    Local override; error
+    @(147,0000 mm, 105,0000 mm): Zone [GND] on B.Cu, priority 0
+    @(163,5000 mm, 163,5000 mm): PTH pad 2 [GND] of J28
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; 1 spokes connected to isolated island)
+    Local override; error
+    @(147,0000 mm, 105,0000 mm): Zone [GND] on B.Cu, priority 0
+    @(188,4680 mm, 148,3360 mm): PTH pad 8 [GND] of U9
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
